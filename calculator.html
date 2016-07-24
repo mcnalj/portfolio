@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculator</title>
+		<link href="../JavaScript/Pinta/public/stylesheets/jquery-ui.min.css" rel="stylesheet">
+		<link href="Public/Stylesheets/calculator.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="../JavaScript/Pinta/public/javascripts/jquery-ui.min.js"></script>
+		<script src="Public/JavaScripts/calculator_simpler.js"></script>	
+	</head>
+	<body>
+		<div id="container">
+		<div id="phone">
+			<div id="speakerCircle"></div>
+			<div id="speaker"></div>
+			<div id="phoneScreen">
+				<div id="screenStatus">
+					<div class="oneThird" id="connection">
+						<div class="circle full"></div>
+						<div class="circle full"></div>
+						<div class="circle"></div>
+						<div class="circle"></div>
+						<div class="circle"></div>
+						<p class="circle" id="verizon">Verizon</p>
+					</div>
+					<div class="oneThird" id="clock">
+						<p class="tinyText" id="time">1:32 PM</p>
+					</div>
+					<div class="oneThird" id="charge">
+						<p class="tinyText" id="percent">56%</p>
+						<div class="tinyText" id="icon">
+							<div id="battery">
+								<div id="batteryCharge"></div>
+							</div>
+							<div id="batteryCap"></div>
+						</div>
+					</div>
+				</div>
+				<div id="calculatorScreen"><p id="screen"></p></div>
+				<div id="calculatorKeys">
+					<div class="key misc all_clear">AC</div>
+					<div class="key misc clear_entry">CE</div>
+					<div class="key misc percent">%</div>
+					<div class="key operator times" id="division">/</div>
+					<div class="key number" id="seven">7</div>
+					<div class="key number" id="eight">8</div>
+					<div class="key number" id="nine">9</div>
+					<div class="key operator times" id="multiplication">x</div>
+					<div class="key number" id="four">4</div>
+					<div class="key number" id="five">5</div>
+					<div class="key number" id="six">6</div>
+					<div class="key operator add" id="subtraction">-</div>
+					<div class="key number" id="one">1</div>
+					<div class="key number" id="two">2</div>
+					<div class="key number" id="three">3</div>
+					<div class="key operator add" id="addition">+</div>
+					<div class="key number" id="zero">0</div>
+					<div class="key number">.</div>
+					<div class="key equals">=</div>
+				</div>			
+			</div>
+			<div id="home">
+				<div id="homeSquare"></div>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

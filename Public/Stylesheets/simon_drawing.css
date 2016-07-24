@@ -1,0 +1,15 @@
+html {
+	background-color: HoneyDew;
+}
+
+#canvasWrapper {
+	width: 100%;
+	text-align: center;
+	background-color: HoneyDew;
+}
+
+#gameConsole {
+	display: inline;
+	background-color: HoneyDew;
+
+}

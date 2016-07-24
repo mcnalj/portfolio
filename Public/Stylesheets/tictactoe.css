@@ -1,0 +1,110 @@
+html {
+	background-color: Silver;
+	font-family: Arial;
+}
+.start {
+	position: absolute;
+	left: 30%;
+	top: 25%;
+	width: 40%;
+	height: 40%;
+	background-color: Black;
+	color: Silver;
+	text-align: center;
+	font-size: 2.5em;
+	border-radius: 10%;
+	display: visible;
+}
+.buttonContainer {
+	display: -webkit-flex;
+	display: flex;
+	padding: 2% 6%;
+}
+.buttonContainer p {
+	-webkit-flex: 1;
+	flex: 1;
+}
+button {
+	background-color: HoneyDew;
+	-webkit-flex: 1.5;
+	flex: 1;
+	font-size: 2.5em;
+	font-weight: bold;
+	border-radius: 5%;
+}
+.xButton {
+	color: Purple;
+}
+.yButton {
+	color: Green;
+}
+.main {
+	width: 100%;
+	height: 1000px;
+	padding: 0;
+	margin-top: 4%;
+}
+table {
+	background-color: GhostWhite;
+	width: 50%;
+	height: 65%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 10em;
+	padding: 0;
+}
+tr {
+	padding: 0;
+}
+td {
+	border: 1px solid black;
+	padding: 0;
+	width: 20%;
+	height: 30%;
+}
+#two, #five, #eight {
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+}
+.row:nth-of-type(1n+2) {
+	border-top: 5px solid black;
+}
+.xPlayed {
+	color: Purple;
+}
+.yPlayed {
+	color: Green;
+}
+.closed {
+	background-color: HoneyDew;
+}
+.victory {
+	background-color: Blue;
+	color: DarkGray;	
+}
+#gameOver {
+	background-color: LightGray;
+	width: 45%;
+	margin: 0 auto;
+	font-size: 5em;
+	text-align: center;
+	margin-top: -45%;
+	margin-left: -100%;
+	border-radius: 10px;
+	opacity: .99;
+	padding: 5%;
+}
+#playAgain {
+	background-color: Blue;
+	width: 15%;
+	margin: 0 auto;
+	font-size: 1.5em;
+	text-align: center;
+	margin-left: 42.5%;
+	border-radius: 5px;
+	padding: 10px;
+	color: White;
+}
+
+

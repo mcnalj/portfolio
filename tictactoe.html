@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tic Tac ToE</title>
+		<link href="../JavaScript/Pinta/public/stylesheets/jquery-ui.min.css" rel="stylesheet">
+		<link href="Public/Stylesheets/tictactoe.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="../JavaScript/Pinta/public/javascripts/jquery-ui.min.js"></script>
+		<script src="Public/JavaScripts/tictactoe.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="start">
+				<p>Pick your symbol</p>
+				<div class="buttonContainer">
+					<button class="xButton">X</button>
+					<p>or</p>
+					<button class="yButton">O</button>
+				</div>
+			</div>
+			<div class="main">
+				<table class="tableBoard">
+					<tr class="row" id="rowOne">
+						<td class="square" id="one"></td>
+						<td class="square" id="two"></td>
+						<td class="square" id="three"></td>
+					</tr>
+					<tr class="row" id="rowTwo">
+						<td class="square" id="four"></td>
+						<td class="square" id="five"></td>
+						<td class="square" id="six"></td>
+					</tr>
+					<tr class="row" id="rowThree">
+						<td class="square" id="seven"></td>
+						<td class="square" id="eight"></td>
+						<td class="square" id="nine"></td>
+					</tr>
+				</table>
+
+				<div class="player">
+					<p id="dialogue"><p>
+					<div id="xPlayer"></div>
+					<div id="yPlayer"></div>
+				</div>
+	
+				<button id="playAgain">RESTART</button>
+			</div>
+		</div>
+	</body>
+	<footer></footer>
+</html>
