@@ -170,7 +170,7 @@ h2 {
 	padding: 3%;
 }
 .work {
-	background-color: DimGray;
+	background-color: LightGray;
 }
 .portfolio {
 	display: flex;
@@ -181,6 +181,13 @@ h2 {
 	clear: both;
 	padding: 5% 5% 0 5%; 
 }
+#portfolio_headline {
+	text-align: center;
+	color: MediumBlue;
+	padding-top: 5%;
+	font-size: 3.75vw;
+	font-size: 2.5em;
+}
 .project {
 	text-align: center;
 	font-size: 1em;
@@ -188,13 +195,28 @@ h2 {
 	flex: 1;
 	margin-left: 3%;
 	margin-right: 3%;
-	padding: 1%;
+	padding: 2%;
+	background-color: Azure;
+	border: 1px solid Black;
+	border-radius: 4%;
 }
+.project:hover {
+	border: 3px solid Black;
+}
+.project_text {
+	text-align: left;
+}
+.project_text p:first-child {
+	font-weight: bold;
+}
+.project_text p:last-child {
+	font-weight: lighter;
+	color: gray;
+}
+
 .project img {
 	width: 100%;
 	text-align: center;
-	border-radius: 4%;
-	border: 2px solid Black;
 }
 .social-media {
 	display: flex;
