@@ -10,29 +10,56 @@
 	<link href="Public/Stylesheets/styles.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="Public/JavaScripts/portfolio.js"></script>
 </head>
 <body>
-	<div class="nav">
-		<a href="#">Home</a>
-		<a href="#about">About</a>
-		<a href="#work">Portfolio</a>
-		<a href="#social-media">Connect</a>
+	<div class="nav_bar">
+		<div class="logo">
+			<p>JakeMcNally</p>
+			<P>Web Developer</p>
+		</div>
+		<div class="nav">
+			<a href="#">Home</a>
+			<a href="#about">About</a>
+			<a href="#work">Portfolio</a>
+			<a href="#social-media">Connect</a>
+		</div>
 	</div>
-	<div class="top_image">
-	</div>
+
 	<div class="container">
+		<div id="background_wrap">
 		<div class="stripe banner">
-			<h1>JAKE McNALLY</h1>
-			<h2>Full Stack Web Development</h2>
+			<h1>I can help your team.</h1>
+			<h2>I am a full stack web developer in Portland, Maine ready to put my skills and talent to work full-time for your company. I bring wisdom, clear communication, and dedication to building projects with . . .</h2>
 			<div class="skills">
-				<p>JavaScript/jQuery</p>
-				<p>PHP/MySQL</p>
-				<p>HTML/CSS/SASS</p>
+				<div id="first">
+					<p>HTML5</p>
+					<p>CSS3</p>
+					<p>JavaScript/jQuery</p>
+					<p>PHP/MySQL</p>
+				</div>
+				<div id="second">
+					<p>add learning fast . . .</p>
+					<p>SASS</p>
+					<p>React.js</p>
+					<p>Node.js</p>
+				</div>
+				<div id="third">
+					<p>Git</p>
+					<p>Agile Methodologies</p>
+					<p>strong technical writing</p>
+					<p>collaborative mindset</p>
+				</div>
+		</div>
+
+
 			</div>
 		</div>
-		<div class="stripe about" id="about">
-			<div id="cartoon_container"><div id="cartoon"></div></div>
-			<div id="about_text"><p>I am a mobile-first, responsive, cross-browser web developer. Highly-collaborative, agile-oriented with abundant professional experience in a fast-paced, deadline driven environment. I developed Atomic Teacher, a PHP/MySQL application, for my social studies classroom and fell in love with coding. </p></div>
+		<div class="stripe about">
+			<div id="cartoon">
+				<div id="image"><img src="Public/Images/caricature.JPG"></div>
+				<div id="text"><p id="about_text">I am a mobile-first, responsive, cross-browser web developer. Highly-collaborative, agile-oriented with abundant professional experience in a fast-paced, deadline driven environment. I developed Atomic Teacher, a PHP/MySQL application, for my social studies classroom and fell in love with coding.</p></div>
+			</div>
 		</div>
 
 		<div class="work">
@@ -55,5 +82,4 @@
 	</div>
 </body>
 <footer><p>"In theory, theory and practice are the same. In practice, they're not." --Yogi Berra<p></footer>
-	<div class="empty"></div>
 </html>
