@@ -239,6 +239,7 @@ h2 {
 	padding: 2%;
 }
 .social-media {
+	display: -webkit-flex;
 	display: flex;
 	justify-content: space-around;
 	padding: 5% 10% 10%;
